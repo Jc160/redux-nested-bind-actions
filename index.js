@@ -7,7 +7,7 @@
  * @return {Function}                 Action Dispatcher
  */
 function bindActionCreator(fnActionCreator, fnDispatch) {
-  return (...listArguments) => fnDispatch(fnActionCreator(...listArguments));
+  return (...listArguments) => fnDispatch(fnActionCreator(...listArguments, fnDispatch));
 }
 
 
