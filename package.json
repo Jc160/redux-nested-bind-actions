@@ -1,0 +1,29 @@
+{
+  "name": "redux-nested-bind-actions",
+  "version": "1.0.0",
+  "description": "Turns an object whose values are action creators, into an object with the same keys, but with every function wrapped into a `dispatch` call so they may be invoked directly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jc160/redux-persist-immutable-x.git"
+  },
+  "keywords": [
+    "redux",
+    "bind",
+    "actions",
+    "dispatch"
+  ],
+  "author": {
+    "name": "Jc160",
+    "email": "jramirez@boxxrd.com",
+    "url": "boxxrd.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jc160/redux-persist-immutable-x/issues"
+  },
+  "homepage": "https://github.com/Jc160/redux-persist-immutable-x#readme"
+}
